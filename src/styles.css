@@ -9,32 +9,56 @@ html {
 }
 
 body {
+  margin: 0;
+
   font-family: 'Comfortaa', cursive;
-  position: relative;
   text-align: center;
+
   background-image: url('./images/razflow69.jpg');
 }
 
 h1 {
   margin: 0;
-  font-size: 40px;
+
+  font-size: 41px;
   font-weight: 700;
+  color: #52600b;
+  line-height: 39px;
 }
 
 .timer-container {
-  padding: 50px;
-  position: absolute;
-  top: 100px;
-  left: 50%;
+  margin: auto;
+  margin-top: 150px;
+  padding: 30px;
 
   height: 300px;
-  width: 700px;
+  width: 500px;
 
-  background-color: rgb(127, 178, 255);
+  background-color: #c7e32c;
   border-radius: 30px;
+  border: double 10px #fd8500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .timer {
   display: flex;
   text-align: center;
+
+  margin-top: 27px;
+}
+
+.value {
+  font-size: 70px;
+  color: #fd8500;
+}
+
+.label {
+  margin-top: 10px;
+
+  color: #52600b;
+  font-size: 21px;
+}
+
+.summer {
+  color: #fd8500;
 }
