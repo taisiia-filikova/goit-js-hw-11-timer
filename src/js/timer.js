@@ -59,6 +59,8 @@
 //  */
 // const secs = Math.floor((time % (1000 * 60)) / 1000);
 
+// Названия переменных, классов и методов прем у Саши отсюда:
+// https://github.com/luxplanjay/js-22/blob/11-1-%D0%B0%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/src/js/06-timer.js
 
 const refs = {
   days: document.querySelector('span[data-value="days"]'),
