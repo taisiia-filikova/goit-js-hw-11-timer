@@ -116,7 +116,5 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('2021, 06, 01'),
+  targetDate: new Date('2021, 5, 1'),
 });
-
-
